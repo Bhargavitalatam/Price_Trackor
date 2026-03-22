@@ -1,6 +1,6 @@
 import { renderHook, waitFor } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import useHistoricalData from './useHistoricalData';
+import { useHistoricalData } from './useHistoricalData';
 import { cryptoApiService } from '../services/CryptoApiService';
 
 // Mock the service

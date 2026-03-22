@@ -8,7 +8,7 @@ export interface CryptoMessage {
 
 type MessageCallback = (data: CryptoMessage) => void;
 
-class WebSocketService {
+export class WebSocketService {
     private ws: WebSocket | null = null;
     private url: string;
     private reconnectAttempts: number = 0;

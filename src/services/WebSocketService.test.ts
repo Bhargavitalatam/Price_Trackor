@@ -9,7 +9,7 @@ class MockWebSocket {
     readyState = 1;
     constructor(public url: string) {}
     close() {}
-    send(data: string) {}
+    send(_data: string) {}
 }
 
 describe('WebSocketService', () => {
